@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Registration Form</title>
+</head>
+<body>
+    <form action="#" method="post">
+        <label for="name">Participant's Name:</label>
+        <input type="text" id="name" name="name" placeholder="Name" required>
+
+        <br><label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="Email" required>
+
+        <br><label for="phone">Phone Number:</label>
+        <input type="tel" id="phone" name="phone" placeholder="Phone number" required>
+
+        <br><label for="event">Select Your Event:</label>
+        <select id="event" name="event">
+            <option value="">Select your event</option>
+            <option value="Dance">Dance</option>
+            <option value="Fashion Show">Fashion Show</option>
+            <option value="Singing">Singing</option>
+        </select>
+
+        <br><label for="tshirt">T-Shirt Size:</label>
+        <select id="tshirt" name="tshirt">
+            <option value="S">S</option>
+            <option value="M">M</option>
+            <option value="L">L</option>
+            <option value="XL">XL</option>
+        </select>
+
+        <br><label>Dietary Preferences:</label>
+        <br><input type="checkbox" id="vegetarian" name="diet[]" value="Vegetarian">
+        <label for="vegetarian">Vegetarian</label>
+
+        <br><input type="checkbox" id="vegan" name="diet[]" value="Vegan">
+        <label for="vegan">Vegan</label>
+
+        <br><input type="checkbox" id="gluten-free" name="diet[]" value="Gluten-Free">
+        <label for="gluten-free">Gluten-Free</label>
+
+        <br><input type="checkbox" i
